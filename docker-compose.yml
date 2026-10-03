@@ -1,0 +1,9 @@
+services:
+  querypad:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - querypad-data:/data
+volumes:
+  querypad-data:

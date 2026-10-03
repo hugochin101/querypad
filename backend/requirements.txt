@@ -1,0 +1,5 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+duckdb>=1.1
+pandas>=2.2
+python-multipart>=0.0.9
